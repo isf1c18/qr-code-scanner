@@ -1,14 +1,7 @@
 django
 gunicorn
-<<<<<<< HEAD
 flask
 pyqrcode
 Jinja2
 pypng
-=======
-django-heroku
-flask
-requests
 
-
->>>>>>> 6f7d1b7c5b094513a9245ac47da4fd5fe2110449
