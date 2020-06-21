@@ -1,2 +1,5 @@
 gunicorn
 flask
+pyqrcode
+Jinja2
+pypng
