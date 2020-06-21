@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 django
 gunicorn
 django-heroku
 flask
 requests
+=======
+gunicorn
+flask
+>>>>>>> 3ffe57370777e7092237af2d9518b3c2ef468924
