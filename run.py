@@ -6,4 +6,4 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     r = requests.get('http://httpbin.org/status/418')
-    return r.text
+    return "HEY"
