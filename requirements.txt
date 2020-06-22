@@ -5,3 +5,4 @@ pyqrcode
 Jinja2
 pypng
 django_heroku
+flask_script

@@ -18,7 +18,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['MAX_CONTENT_LENGTH'] = 16*1024*1024
 app.config['JSON_AS_ASCII'] = False
 
-print (DATABASE)
+#print (DATABASE)
 def get_db():
 	db = getattr(g, '_database', None)
 	if db is None:
@@ -89,7 +89,7 @@ def qrscanner():
 
 @app.route('/favicon.ico')
 def favicon():
-	print (os.path.join(app.root_path, 'static','favicon','favicon.ico'))
+	#print (os.path.join(app.root_path, 'static','favicon','favicon.ico'))
 	return send_from_directory(os.path.join(app.root_path, 'static','favicon'),'favicon.ico')
 
 
